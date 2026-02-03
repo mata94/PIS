@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
+  <diagram name="Page-1" id="BQpntC-ypFGyt5k8AOM9">
+    <mxGraphModel dx="1783" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x2l8tSxMriKatIrePAvv-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Sustav placanja" vertex="1">
+          <mxGeometry height="54" width="172" x="610" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-6" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="Pregled dostupnosti soba" vertex="1">
+          <mxGeometry height="39" width="203" x="329" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-7" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="Kreiranje / izmjena / otkaz rezervacije" vertex="1">
+          <mxGeometry height="63" width="231" x="315" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-8" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="Check-in / Check-out" vertex="1">
+          <mxGeometry height="39" width="178" x="341" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-9" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="Upravljanje sobama i tipovima" vertex="1">
+          <mxGeometry height="63" width="231" x="315" y="578" as="geometry" />
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-10" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="Generiranje racuna" vertex="1">
+          <mxGeometry height="39" width="164" x="348" y="311" as="geometry" />
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-11" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="Placanje usluga" vertex="1">
+          <mxGeometry height="39" width="136" x="362" y="109" as="geometry" />
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-12" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="Izvjestaji i analitika" vertex="1">
+          <mxGeometry height="39" width="167" x="347" y="691" as="geometry" />
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-13" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="Evidencija gostiju" vertex="1">
+          <mxGeometry height="39" width="152" x="354" y="489" as="geometry" />
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-14" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="Podaci za racunovodstvo" vertex="1">
+          <mxGeometry height="39" width="200" x="596" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-15" edge="1" parent="1" style="curved=1;startArrow=none;endArrow=none;exitX=0.81;exitY=0;entryX=0;entryY=0.5;rounded=0;" target="x2l8tSxMriKatIrePAvv-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="40" />
+            </Array>
+            <mxPoint x="170.51999999999998" y="152" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-16" edge="1" parent="1" style="curved=1;startArrow=none;endArrow=none;exitX=1.01;exitY=0.44;entryX=0.18;entryY=0;rounded=0;" target="x2l8tSxMriKatIrePAvv-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="169" />
+            </Array>
+            <mxPoint x="188" y="175.82352941176475" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-17" edge="1" parent="1" style="curved=1;startArrow=none;endArrow=none;exitX=1.01;exitY=0.56;entryX=0.17;entryY=1;rounded=0;" target="x2l8tSxMriKatIrePAvv-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="189" />
+            </Array>
+            <mxPoint x="188" y="182.17647058823525" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-18" edge="1" parent="1" style="curved=1;startArrow=none;endArrow=none;exitX=0.98;exitY=1;entryX=0.23;entryY=0;rounded=0;" target="x2l8tSxMriKatIrePAvv-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="270" />
+            </Array>
+            <mxPoint x="186.16000000000008" y="206" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-19" edge="1" parent="1" style="curved=1;startArrow=none;endArrow=none;entryX=0.18;entryY=1;rounded=0;" target="x2l8tSxMriKatIrePAvv-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="290" />
+            </Array>
+            <mxPoint x="180" y="390" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-20" edge="1" parent="1" style="curved=1;startArrow=none;endArrow=none;entryX=0;entryY=0.5;rounded=0;" target="x2l8tSxMriKatIrePAvv-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="180" y="420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-21" edge="1" parent="1" style="curved=1;startArrow=none;endArrow=none;exitX=0.84;exitY=0.99;entryX=0;entryY=0.5;rounded=0;" target="x2l8tSxMriKatIrePAvv-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="509" />
+            </Array>
+            <mxPoint x="188.1020408163265" y="447" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-22" edge="1" parent="1" style="curved=1;startArrow=none;endArrow=none;exitX=0.82;exitY=0;entryX=0;entryY=0.5;rounded=0;" target="x2l8tSxMriKatIrePAvv-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="610" />
+            </Array>
+            <mxPoint x="220.89999999999998" y="633" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-23" edge="1" parent="1" style="curved=1;startArrow=none;endArrow=none;exitX=0.82;exitY=1;entryX=0;entryY=0.5;rounded=0;" target="x2l8tSxMriKatIrePAvv-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="711" />
+            </Array>
+            <mxPoint x="220.89999999999998" y="687" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-24" edge="1" parent="1" source="x2l8tSxMriKatIrePAvv-11" style="curved=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.49;rounded=0;" target="x2l8tSxMriKatIrePAvv-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-25" edge="1" parent="1" source="x2l8tSxMriKatIrePAvv-10" style="curved=1;startArrow=none;endArrow=none;exitX=0.74;exitY=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="571" y="261" />
+              <mxPoint x="821" y="261" />
+            </Array>
+            <mxPoint x="870" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-26" edge="1" parent="1" source="x2l8tSxMriKatIrePAvv-14" style="curved=1;startArrow=none;endArrow=none;exitX=1;exitY=0.51;rounded=0;" target="x2l8tSxMriKatIrePAvv-37" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="821" y="358" />
+            </Array>
+            <mxPoint x="846" y="352" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-27" edge="1" parent="1" source="x2l8tSxMriKatIrePAvv-10" style="curved=1;startArrow=none;endArrow=none;exitX=1;exitY=0.91;entryX=0;entryY=0.51;rounded=0;" target="x2l8tSxMriKatIrePAvv-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="571" y="358" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-28" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Korisnik" vertex="1">
+          <mxGeometry height="60" width="30" x="160" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-32" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;Administrator / Menadzer&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="190" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-33" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;direction=east;" value="Recepcija" vertex="1">
+          <mxGeometry height="60" width="30" x="142.5" y="389.5" as="geometry" />
+        </mxCell>
+        <mxCell id="x2l8tSxMriKatIrePAvv-37" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;Računovodstvo&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="870" y="300.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,9 @@
+Faza;Trajanje;Zavisnost;
+Inicijacija projekta;2 tjedna;po?etna faza;
+Analiza zahtjeva;4 tjedna;nakon inicijacije;
+Modeliranje sustava;3 tjedna;nakon analize;
+Dizajn sustava;2 tjedna;nakon modeliranja;
+Implementacija;1 tjedan;nakon dizajna;
+Testiranje;2 tjedna;nakon implementacije;
+Dokumentacija;1 tjedan;paralelno s testiranjem;
+Završetak projekta;2 tjedna;nakon testiranja i dokumentacije;

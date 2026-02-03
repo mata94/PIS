@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
+  <diagram name="Page-1" id="PoNFihOsiIsLIlmGqHgD">
+    <mxGraphModel dx="3021" dy="1155" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Gost" vertex="1">
+          <mxGeometry height="54" width="92" x="182" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Recepcija" vertex="1">
+          <mxGeometry height="54" width="130" x="875" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Administrator / Menadžer" vertex="1">
+          <mxGeometry height="54" width="245" x="1069" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Online kanali" vertex="1">
+          <mxGeometry height="54" width="154" x="20" y="638" as="geometry" />
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Plaćanje usluga" vertex="1">
+          <mxGeometry height="54" width="172" x="1387" y="638" as="geometry" />
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Računovodstvo" vertex="1">
+          <mxGeometry height="54" width="166" x="1671" y="638" as="geometry" />
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-7" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="P1&#xa;Upravljanje korisnicima" vertex="1">
+          <mxGeometry height="215" width="215" x="487" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-8" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="P2&#xa;Upravljanje rezervacijama" vertex="1">
+          <mxGeometry height="215" width="215" x="64" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-9" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="P3&#xa;Upravljanje sobama&#xa;" vertex="1">
+          <mxGeometry height="215" width="215" x="752" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-10" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="P4&#xa;Naplata i fakturiranje" vertex="1">
+          <mxGeometry height="203" width="203" x="1404" y="344" as="geometry" />
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-11" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="P5&#xa;Izvještavanje i analitika" vertex="1">
+          <mxGeometry height="215" width="215" x="1052" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-12" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" value="Baza podataka" vertex="1">
+          <mxGeometry height="76" width="119" x="719" y="627" as="geometry" />
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-13" edge="1" parent="1" source="Djvg3JQ5T6oolETzUFkx-1" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.73;entryX=0;entryY=0.1;rounded=0;" target="Djvg3JQ5T6oolETzUFkx-8" value="Zahtjev za rezervaciju">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-7" y="301" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-14" edge="1" parent="1" source="Djvg3JQ5T6oolETzUFkx-8" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.14;entryX=1;entryY=0.87;rounded=0;" target="Djvg3JQ5T6oolETzUFkx-1" value="Potvrda rezervacije">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="374" y="301" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-15" edge="1" parent="1" source="Djvg3JQ5T6oolETzUFkx-4" style="curved=1;startArrow=none;endArrow=block;exitX=0.89;exitY=0;entryX=0.82;entryY=1;rounded=0;" target="Djvg3JQ5T6oolETzUFkx-8" value="Rezervacije / otkazi">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="264" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-16" edge="1" parent="1" source="Djvg3JQ5T6oolETzUFkx-8" style="curved=1;startArrow=none;endArrow=block;exitX=0.22;exitY=1;entryX=0.48;entryY=0;rounded=0;" target="Djvg3JQ5T6oolETzUFkx-4" value="Dostupnost i cijene">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="91" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-17" edge="1" parent="1" source="Djvg3JQ5T6oolETzUFkx-2" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.6;entryX=0.56;entryY=0;rounded=0;" target="Djvg3JQ5T6oolETzUFkx-8" value="Unos i izmjena rezervacija">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="189" y="301" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-18" edge="1" parent="1" source="Djvg3JQ5T6oolETzUFkx-2" style="curved=1;startArrow=none;endArrow=block;exitX=0.24;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Djvg3JQ5T6oolETzUFkx-9" value="Promjena statusa sobe">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="859" y="301" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-19" edge="1" parent="1" source="Djvg3JQ5T6oolETzUFkx-2" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.64;entryX=0.5;entryY=0;rounded=0;" target="Djvg3JQ5T6oolETzUFkx-10" value="Zahtjev za naplatu">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1505" y="301" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-20" edge="1" parent="1" source="Djvg3JQ5T6oolETzUFkx-10" style="curved=1;startArrow=none;endArrow=block;exitX=0.14;exitY=1;entryX=0.35;entryY=0;rounded=0;" target="Djvg3JQ5T6oolETzUFkx-5" value="Zahtjev za naplatu">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1401" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-21" edge="1" parent="1" source="Djvg3JQ5T6oolETzUFkx-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.69;exitY=0;entryX=0.71;entryY=1;rounded=0;" target="Djvg3JQ5T6oolETzUFkx-10" value="Potvrda transakcije">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1565" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-22" edge="1" parent="1" source="Djvg3JQ5T6oolETzUFkx-10" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.79;entryX=0.5;entryY=0;rounded=0;" target="Djvg3JQ5T6oolETzUFkx-6" value="Podaci za knjiženje">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1754" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-23" edge="1" parent="1" source="Djvg3JQ5T6oolETzUFkx-3" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.74;entryX=0.5;entryY=0;rounded=0;" target="Djvg3JQ5T6oolETzUFkx-7" value="Upravljanje korisnicima">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="594" y="301" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-24" edge="1" parent="1" source="Djvg3JQ5T6oolETzUFkx-3" style="curved=1;startArrow=none;endArrow=block;exitX=0.36;exitY=1;entryX=0.33;entryY=0;rounded=0;" target="Djvg3JQ5T6oolETzUFkx-11" value="Zahtjev za izvještaje">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1110" y="301" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-25" edge="1" parent="1" source="Djvg3JQ5T6oolETzUFkx-11" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=0;entryX=0.59;entryY=1;rounded=0;" target="Djvg3JQ5T6oolETzUFkx-3" value="Izvještaji">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1244" y="301" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-26" edge="1" parent="1" source="Djvg3JQ5T6oolETzUFkx-7" style="curved=1;startArrow=block;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.18;rounded=0;" target="Djvg3JQ5T6oolETzUFkx-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="594" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-27" edge="1" parent="1" source="Djvg3JQ5T6oolETzUFkx-8" style="curved=1;startArrow=block;endArrow=block;exitX=1;exitY=0.63;entryX=0.28;entryY=0;rounded=0;" target="Djvg3JQ5T6oolETzUFkx-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="727" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-28" edge="1" parent="1" source="Djvg3JQ5T6oolETzUFkx-9" style="curved=1;startArrow=block;endArrow=block;exitX=0.5;exitY=1;entryX=0.84;entryY=0;rounded=0;" target="Djvg3JQ5T6oolETzUFkx-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="859" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-29" edge="1" parent="1" source="Djvg3JQ5T6oolETzUFkx-10" style="curved=1;startArrow=block;endArrow=block;exitX=0;exitY=0.67;entryX=1;entryY=0.3;rounded=0;" target="Djvg3JQ5T6oolETzUFkx-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1072" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Djvg3JQ5T6oolETzUFkx-30" edge="1" parent="1" source="Djvg3JQ5T6oolETzUFkx-11" style="curved=1;startArrow=block;endArrow=block;exitX=0.83;exitY=1;entryX=1;entryY=0.37;rounded=0;" target="Djvg3JQ5T6oolETzUFkx-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1255" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

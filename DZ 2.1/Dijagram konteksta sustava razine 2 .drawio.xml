@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
+  <diagram name="Page-1" id="JeX1wiESPoWI8BejqfW9">
+    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QbSqZrEx6IoP1CerGoQ_-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Gost" vertex="1">
+          <mxGeometry height="54" width="92" x="149" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QbSqZrEx6IoP1CerGoQ_-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Online kanali" vertex="1">
+          <mxGeometry height="54" width="154" x="606" y="1026" as="geometry" />
+        </mxCell>
+        <mxCell id="QbSqZrEx6IoP1CerGoQ_-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Recepcija" vertex="1">
+          <mxGeometry height="54" width="130" x="366" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QbSqZrEx6IoP1CerGoQ_-4" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="P2.1&#xa;Zaprimanje rezervacije" vertex="1">
+          <mxGeometry height="215" width="215" x="20" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="QbSqZrEx6IoP1CerGoQ_-5" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="P2.2&#xa;Provjera dostupnosti&#xa; i dodjela sobe" vertex="1">
+          <mxGeometry height="215" width="215" x="20" y="437" as="geometry" />
+        </mxCell>
+        <mxCell id="QbSqZrEx6IoP1CerGoQ_-6" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="P2.3&#xa;Potvrda / izmjena /&#xa; otkaz rezervacije" vertex="1">
+          <mxGeometry height="215" width="215" x="189" y="726" as="geometry" />
+        </mxCell>
+        <mxCell id="QbSqZrEx6IoP1CerGoQ_-7" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" value="Baza podataka" vertex="1">
+          <mxGeometry height="76" width="119" x="237" y="1015" as="geometry" />
+        </mxCell>
+        <mxCell id="QbSqZrEx6IoP1CerGoQ_-8" edge="1" parent="1" source="QbSqZrEx6IoP1CerGoQ_-1" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.83;entryX=0.16;entryY=0;rounded=0;" target="QbSqZrEx6IoP1CerGoQ_-4" value="Zahtjev za rezervaciju">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="31" y="111" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QbSqZrEx6IoP1CerGoQ_-9" edge="1" parent="1" source="QbSqZrEx6IoP1CerGoQ_-2" style="curved=1;startArrow=none;endArrow=block;exitX=0.55;exitY=0;entryX=1;entryY=0.62;rounded=0;" target="QbSqZrEx6IoP1CerGoQ_-4" value="Online rezervacija">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="707" y="978" />
+              <mxPoint x="707" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QbSqZrEx6IoP1CerGoQ_-10" edge="1" parent="1" source="QbSqZrEx6IoP1CerGoQ_-3" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.97;entryX=0.98;entryY=0;rounded=0;" target="QbSqZrEx6IoP1CerGoQ_-4" value="Unos rezervacije">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="266" y="111" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QbSqZrEx6IoP1CerGoQ_-11" edge="1" parent="1" source="QbSqZrEx6IoP1CerGoQ_-4" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="QbSqZrEx6IoP1CerGoQ_-5" value="Zahtjev za dostupnost">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QbSqZrEx6IoP1CerGoQ_-12" edge="1" parent="1" source="QbSqZrEx6IoP1CerGoQ_-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.27;exitY=1;entryX=0;entryY=0.25;rounded=0;" target="QbSqZrEx6IoP1CerGoQ_-7" value="Podaci o sobama">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="689" />
+              <mxPoint x="60" y="978" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QbSqZrEx6IoP1CerGoQ_-13" edge="1" parent="1" source="QbSqZrEx6IoP1CerGoQ_-7" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.22;entryX=1;entryY=0.69;rounded=0;" target="QbSqZrEx6IoP1CerGoQ_-5" value="Status dostupnosti">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="505" y="978" />
+              <mxPoint x="505" y="689" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QbSqZrEx6IoP1CerGoQ_-14" edge="1" parent="1" source="QbSqZrEx6IoP1CerGoQ_-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=1;entryX=0.21;entryY=0;rounded=0;" target="QbSqZrEx6IoP1CerGoQ_-6" value="Odabrana soba i cijena">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="212" y="689" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QbSqZrEx6IoP1CerGoQ_-15" edge="1" parent="1" source="QbSqZrEx6IoP1CerGoQ_-6" style="curved=1;startArrow=none;endArrow=block;exitX=0.83;exitY=0;entryX=1.01;entryY=0.78;rounded=0;" target="QbSqZrEx6IoP1CerGoQ_-1" value="Potvrda rezervacije">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="391" y="689" />
+              <mxPoint x="391" y="111" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QbSqZrEx6IoP1CerGoQ_-16" edge="1" parent="1" source="QbSqZrEx6IoP1CerGoQ_-6" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.73;entryX=0.32;entryY=0;rounded=0;" target="QbSqZrEx6IoP1CerGoQ_-2" value="Ažuriranje dostupnosti">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="606" y="978" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QbSqZrEx6IoP1CerGoQ_-17" edge="1" parent="1" source="QbSqZrEx6IoP1CerGoQ_-6" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="QbSqZrEx6IoP1CerGoQ_-7" value="Upis rezervacije">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,26 @@
+Faza projekta;Opis aktivnost;Trajanje
+Inicijacija projekta;;2 tjedna
+Definiranje projekta;Odabir teme projekta, definiranje osnovne ideje i ciljeva sustava;1 tjedan
+Izrada prijedloga projekta;Izrada dokumenta „Prijedlog projekta“;1 tjedan
+Analiza zahtjeva;;4 tjedna
+Identifikacija dionika;Identifikacija korisnika sustava (recepcija, menadžer, administracija, gosti);1 tjedan
+Analiza poslovnih procesa;Analiza postojeceg nacina rada hotela;1 tjedan
+Definiranje funkcionalnih zahtjeva;Definiranje funkcija sustava (rezervacije, sobe, naplata…);1 tjedan
+Definiranje nefunkcionalnih zahtjeva;Sigurnost, dostupnost, performanse;1 tjedan
+Modeliranje sustava;;3 tjedna
+Izrada UML dijagrama;Use case, dijagram aktivnosti i sekvencijski dijagrami;2 tjedan
+Model podataka;Izrada konceptualnog i logickog modela baze podataka;1 tjedan
+Dizajn sustava;;2 tjedna
+Arhitektura sustava;Definiranje arhitekture (web aplikacija, baza podataka);1 tjedan
+Dizajn korisnickog sucelja;Skice (mockupi) korisnickog sucelja;1 tjedan
+Implementacija (konceptualna);;1 tjedan
+Opis implementacije;Opis tehnologija i nacina realizacije sustava;1 tjedan
+Testiranje;;2 tjedna
+Plan testiranja;Definiranje testnih scenarija;1 tjedan
+Testiranje funkcionalnosti;Provjera ispravnosti kljucnih funkcija;1 tjedan
+Dokumentacija;;1 tjedna
+Izrada projektne dokumentacije;Priprema kompletne dokumentacije projekta;1 tjedan
+Završetak projekta;;2 tjedna
+Završna provjera;Pregled i korekcija projekta;1 tjedan
+Predaja projekta;Predaja gotovog projekta;1 tjedan
+Ukupno;;17 tjedana
